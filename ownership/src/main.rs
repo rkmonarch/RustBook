@@ -8,9 +8,12 @@ fn main() {
  let s2 = "Hello world";
  let word = first_word(s2);
  s.clear(); 
- println!("{}", word)
+ println!("{}", word);
 
  // whenever we need to retrun or get a slice of the string we use [start..end]
+
+ let x = [10,20,30,40,50];
+ let slice = &x[0..2];
 }
 
 
