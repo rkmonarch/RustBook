@@ -15,13 +15,15 @@ fn main() {
 
 
 fn first_word(s: &str) -> &str {
-    let bytes = s.as_bytes();
+    let bytes = s.as_bytes(); //convert array to bytes
     for (i, &item) in bytes.iter().enumerate() {
-if item == b' ' {
-    return &s[0..i];
+if item == b' ' //check for the space 
+
+ {
+    return &s[0..i]; //return the string before the space
 }   
 }
-&s[..]
+&s[..] //return the whole string
 }
 fn copyvalues(){
 
