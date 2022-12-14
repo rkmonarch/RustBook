@@ -19,14 +19,13 @@ fn var_type(){
     let x = "Six";
     println!("varibale is:{}", x);
 
-    let tup = ("this is string",100);
-    let (channel, subCount) = tup;
-    let subCount = tup.1;
+    // let tup = ("this is string",100);
+    // let (channel, subCount) = tup;
+    // let subCount = tup.1;
 
-    let error_codes = [200,404,500];
-    let not_found = error_codes[1];
-    let x = error_codes[1]; // this will give error cause length is 2
-    let byte = [0; 8];
+    // let not_found = error_codes[1];
+    // let x = error_codes[3]; // this will give error cause length is 2
+    // let byte = [0; 8];
 }
 
 fn my_function(x:i32, y:i32) -> i32{
